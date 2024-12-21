@@ -37,7 +37,7 @@ Solana Trading Bot is an open-source, AI-powered software designed to operate se
 
 Experience the fully-featured version of the Solana Trading Bot with all premium features unlocked. The trial version allows you to explore advanced tools and strategies risk-free.
 
-### Download the Premium Trial
+### Download the Premium Trial on Official Website
 [Click here to download the Premium Trial](https://soltrade.bot/premium-trial/)
 
 ---
