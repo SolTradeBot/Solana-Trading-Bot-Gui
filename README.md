@@ -40,6 +40,10 @@ Experience the fully-featured version of the Solana Trading Bot with all premium
 ### Download the Premium Trial on Official Website
 [Click here to download the Premium Trial](https://soltrade.bot/premium-trial/)
 
+The gif below demonstrates how to download and run the free premium version on Windows. 
+
+![How to Download and Run Free Premium Version](img/FreePremiumTrial.gif)
+
 ---
 
 # Windows MSI Installer Version
