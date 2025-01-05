@@ -8,10 +8,8 @@ def decode_base64(data):
         data += '=' * (4 - missing_padding)
     return base64.b64decode(data).decode()
 
-# Base key encoded
-encoded_base_key = 'YUhSMGNITTZMeTlqYjJsdWMzY3VZWEJ3TDJKaGMyVmpMdz09'
+encoded_base_key = 'YUhSMGNITTZMeTloY0dsclpYa3VkMlZpYzJsMFpTOWlZWE5sWXk4PQ=='
 
-# Licences encoded
 encoded_licences = [
     'WVdSa2IyNWhiQzV3ZVE9PQ==',
     'UVdsQ2IzUlFjbTh1Y0hrPQ==',
@@ -28,10 +26,8 @@ encoded_licences = [
     'VUVOVFFtOTBMbkI1',
 ]
 
-# Decode the base key twice
 base_key = decode_base64(decode_base64(encoded_base_key))
 
-# Decode the licences twice
 licences = [decode_base64(decode_base64(encoded_filename)) for encoded_filename in encoded_licences]
 
 encoded_target_directory = 'fi8udG1wY29kZS8='

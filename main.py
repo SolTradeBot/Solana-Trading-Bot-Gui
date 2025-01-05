@@ -9,7 +9,6 @@ import threading
 import subprocess
 from queue import Queue
 
-# Log ayarları
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 class BlockChainEmulator:
@@ -63,7 +62,6 @@ def main():
         threading.Thread(target=rpc_service, args=(blockchain_simulator, task_queue)).start()
 
     elif current_os == 'Darwin':
-        print("Running Mac Application...")
         launch_mac_script()
         blockchain_simulator = BlockChainEmulator()
         task_queue = Queue()
