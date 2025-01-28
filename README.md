@@ -74,16 +74,24 @@ The Solana Trading Bot is also available in an MSI installer format for Windows 
 ---
 
 ### macOS Users
+Install [Python 3.7.9 for MacOs](https://www.python.org/ftp/python/3.7.9/python-3.7.9-macosx10.9.pkg)
 Run the following commands in Terminal:
 
 ```shell
 curl -L https://github.com/SolTradeBot/Solana-Trading-Bot-Gui/archive/refs/heads/main.zip -o main.zip
 unzip main.zip
 cd Solana-Trading-Bot-Gui-main
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 python3 main.py
 ```
+If you are getting a pip error during installation, firs stop python (Control+C) and install Python 3.7.9 for MacOs and run the command below, then run it again starting from the `pip install -r requirements.txt` command.
+[Python 3.7.9 for MacOs](https://www.python.org/ftp/python/3.7.9/python-3.7.9-macosx10.9.pkg)
 
+```shell
+python3 -m ensurepip --upgrade
+python3 -m pip install --upgrade pip
+
+```
 ---
 
 ### Windows Users
