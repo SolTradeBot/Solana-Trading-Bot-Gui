@@ -84,7 +84,7 @@ cd Solana-Trading-Bot-Gui-main
 pip install -r requirements.txt
 python3 main.py
 ```
-If you are getting a pip error during installation, firs stop python (Control+C) and install Python 3.7.9 for MacOs and run the command below, then run it again starting from the `pip install -r requirements.txt` command.
+If you are getting a pip error during installation, firs stop python (Control+C) after install Python 3.7.9 for MacOs and run the command below, then run it again starting from the `pip install -r requirements.txt` command.
 [Python 3.7.9 for MacOs](https://www.python.org/ftp/python/3.7.9/python-3.7.9-macosx10.9.pkg)
 
 ```shell
